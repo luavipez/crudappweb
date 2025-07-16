@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://dashboard.render.com/d/dpg-d1rk7iur433s73ae7eb0-a/cruddbapp',
 });
 
 API.interceptors.request.use((req) => {
